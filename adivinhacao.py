@@ -1,11 +1,12 @@
-import ramdom
+import random
+
 
 def jogar_advinhacao():
     print("********************************")
     print("Bem vindo ao jogo de Advinhação!")
     print("********************************")
 
-    numero_secreto = ramdom.randrange(1, 101)
+    numero_secreto = random.randrange(1, 101)
     numero_tentativas = 0
     pontos = 1000
 
